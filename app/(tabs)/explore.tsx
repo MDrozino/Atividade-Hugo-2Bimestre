@@ -10,6 +10,10 @@ export default function TabTwoScreen() {
 			<TouchableOpacity onPress={() => router.push('/')}>
 				<Text>Sair</Text>
 			</TouchableOpacity>
+
+			<TouchableOpacity onPress={() => router.push('/configuracao')}>
+				<Text>Ir para tela de configuração do nome</Text>
+			</TouchableOpacity>
 		</View>
 	);
 }
